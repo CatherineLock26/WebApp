@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyperlinks and Text Marking Language"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 2,
+    "question": "What is CSS mainly used for?",
+    "options": [
+      "Storing data",
+      "Styling webpages",
+      "Sending emails"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 3,
+    "question": "What does JavaScript do in a web app?",
+    "options": [
+      "Adds interactivity",
+      "Prints documents",
+      "Builds computer hardware"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 1776781406569,
+    "question": "What does URL stand for?",
+    "options": [
+      "uniform record locator",
+      "uniform data locator",
+      "uniform resource locator"
+    ],
+    "answer": 2
+  }
+]
