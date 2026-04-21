@@ -1,0 +1,12 @@
+{
+  "name": "quiz-admin-app",
+  "version": "1.0.0",
+  "description": "Quiz app with admin dashboard and persistent shared questions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
