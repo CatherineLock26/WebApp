@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="card quiz-card">
+      <div class="top-row">
+        <div>
+          <p class="eyebrow">Quiz Session</p>
+          <h1 id="welcomeMessage">Welcome</h1>
+        </div>
+        <button class="secondary-btn" id="goHomeBtn" type="button">Home</button>
+      </div>
+
+      <div class="progress-wrap">
+        <div class="progress-meta">
+          <span id="progressText">Question 1 of 1</span>
+          <span id="scoreText">Score: 0</span>
+        </div>
+        <div class="progress-bar">
+          <div id="progressFill"></div>
+        </div>
+      </div>
+
+      <h2 id="questionText">Loading question...</h2>
+      <div id="optionsContainer" class="options-grid"></div>
+      <p id="feedbackMessage" class="message"></p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

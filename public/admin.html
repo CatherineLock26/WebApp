@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="card admin-card">
+      <div class="top-row">
+        <div>
+          <p class="eyebrow">Admin Dashboard</p>
+          <h1>Manage shared quiz questions</h1>
+        </div>
+        <button class="secondary-btn" id="HomepageBtn" type="button">Return to Homepage</button>
+      </div>
+
+      <div class="grid two-col admin-layout">
+        <div class="panel">
+          <h2 id="formTitle">Add Question</h2>
+
+          <input type="text" id="newQuestion" placeholder="Enter question">
+          <input type="text" id="option1" placeholder="Option 1">
+          <input type="text" id="option2" placeholder="Option 2">
+          <input type="text" id="option3" placeholder="Option 3">
+          <input type="number" id="answer" placeholder="Correct answer index (0, 1 or 2)" min="0" max="2">
+
+          <div class="button-row">
+            <button id="addQuestionBtn" type="button">Save Question</button>
+            <button id="cancelEditBtn" class="secondary-btn" type="button" hidden>Cancel Edit</button>
+          </div>
+
+          <p id="adminStatusMessage" class="message"></p>
+        </div>
+
+        <div class="panel">
+          <h2>Current Questions</h2>
+          <p class="muted">These are saved on the server and shared across all users.</p>
+          <div id="questionList"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
